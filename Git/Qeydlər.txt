@@ -1,0 +1,29 @@
+GitBash yükləmək üçün ilk öncə Source.txt fayılında ilk linkə daxil olun.
+
+
+GitHub hesabı ilə əlaqə yaratmaq üçün aşağdakı kod sətirlərini icra edin:
+1) git config  --global user.name "Firstname Lastname" (github akountunun adı yazılmalıdır)
+2) git config --global user.email "valid-email"
+3) git config --global color.ui auto   
+
+
+Github hesabımızda yaratdığımız reponu endirmək üçün repumuzun linkini kopyalayıb desktopa sağ kliklədikdən sonra 
+"Git Bash Here"-ə klik edirik açılan pəncərədə isə bu kodu yazmalıyıq:
+git clone yazdıqdan sonra kopyaladığımız linki bir boşluq buraxıb yanına yapışdırırıq
+bu şəkildə görsənir: git clone https://github.com/SadiqAbdullay3v/1-GitHub.git 
+
+
+Proyektimizdə dəyişiklik etdiyimiz zaman edilən dəyişikliyi repomuza yükləmək üçün:
+1) Desktop da yüklənən folderə daxil olub sağ klik edirik
+2) git add .  bu kod sətri bütün dəyişiklikləri əlavə edir və ya folderin adını yazaraq da sadəcə o folderdə etdiyiniz dəyişiklikləri reponuza yükləyə bilərsiz
+3) git commit -m ""  bu kod sətri etdiyiniz dəyişikliyi qısa şəkildə qeyd etməyiniz üçün vacibdir
+4) git push bü edilən bütün dəyişikliklərin icra olunmasını təsdiqləyir.
+
+
+
+İndi isə bəzi (çox) isdifadə (etdiyim) olunan kodlara baxaq :
+1)pwd - (print working direction) - komputerdə daxil olduğumuz folderin GitBash ekranın da rootunu göstərir
+2)cd - (change direction) - folder rootları arasında keçit etmə imkanı verir daxil olduğumuz folderdən çıxmaq üçün 
+../ isdifadə olunur. cd yazdıqdan sonra folderin adını yazaraq hemin foldere daxil olmaq mümkündür. 
+3)ls - GitBash acdığımız folderdə olan folderləri, proqramları, papkaları göstərir
+4)clear - GitBash pəncərəsində yazdığımız kodları təmizləyir 
